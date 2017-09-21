@@ -1,0 +1,66 @@
+.page {
+  width: 600px;
+  margin: 0 auto;
+}
+.synopsis {
+  color: #7e8184; /* Light Gery */
+  font-style: italic;
+}
+.synopsis em {
+  font-style: normal;
+}
+.button:link,
+.button:visited {
+  display: block;
+  text-decoration: none;
+
+  color: #fff;
+  background-color: #5995da; /* Blue */
+  font-weight: bold;
+  padding: 20px;
+  text-align: center;
+  border: 2px solid #5d6063; /* dark grey */
+  border-radius: 5px;
+
+  width: 200px;
+  margin: 20px auto;
+}
+.button:active,
+.button:visited:active {
+  color: #fff;
+  background-color: #5995da;
+}
+.call-to-action:link,
+.call-to-action:visited:hover {
+  font-style: italic;
+  background-color: #eeb75a; /* yellow */
+}
+.call-to-action:hover,
+.call-to-action:visited:hover {
+  font-style: italic;
+  background-color: #f5cf8e; /* light yellow */
+}.call-to-action:active,
+.call-to-action:visited:active {
+  font-style: italic;
+  background-color: #eeb75a; /* yellow */
+}
+a:link {
+  color: blue;
+  text-decoration: none;
+}
+a:visited {
+  color: purple;
+}
+a:hover {
+  color: aqua;
+  text-decoration: underline;
+}
+a:active {
+  color: red;
+}
+a:visited:hover {
+  color: orange;
+}
+a:visited:active {
+  color: red;
+}
