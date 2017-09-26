@@ -64,3 +64,6 @@ a:visited:hover {
 a:visited:active {
   color: red;
 }
+#button-2 {
+  color: #5d6063 /* Dark Grey */
+}
