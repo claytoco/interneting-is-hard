@@ -4,6 +4,37 @@
   box-sizing: border-box;
 }
 
+.page {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.section {
+  width: 100%;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu {
+  background-color: #5995da;
+  height: 80px;
+}
+
+.header {
+  background-color: #b2d6ff;
+}
+
+.content {
+  background-color: #eaedf0;
+  height: 600px;
+}
+
+.sign-up {
+  background-color: #d6e9fe;
+}
+
 /*Mobile styles*/
 @media only screen and (max-width: 400px) {
   body{
