@@ -17,6 +17,11 @@
   align-items: center;
 }
 
+.illustration img {
+  width: 100%;
+  display: block;
+}
+
 .menu {
   background-color: #5995da;
   height: 80px;
